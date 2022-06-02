@@ -36,20 +36,20 @@
   var czasAnimacji;
   function animate(){
           if(i == 0){
-              $( "#o1" ).fadeOut( 1500 )
-              $( "#o2" ).fadeIn( 1500 );
-          }
-          else if(i == 1){
-              $( "#o2" ).fadeOut( 1500 )
+              $( "#o4" ).fadeOut( 1500 )
               $( "#o3" ).fadeIn( 1500 );
           }
+          else if(i == 1){
+              $( "#o3" ).fadeOut( 1500 )
+              $( "#o2" ).fadeIn( 1500 );
+          }
           else if(i == 2){
-              $( "#o3" ).fadeOut( 1500 );
-              $( "#o4" ).fadeIn( 1500 );
+              $( "#o2" ).fadeOut( 1500 );
+              $( "#o1" ).fadeIn( 1500 );
           }
           else if(i == 3){
-              $( "#o4" ).fadeOut( 1500 )
-              $( "#o1" ).fadeIn( 1500 );
+              $( "#o1" ).fadeOut( 1500 )
+              $( "#o4" ).fadeIn( 1500 );
           }
   
           if(i == 3) i = 0;
